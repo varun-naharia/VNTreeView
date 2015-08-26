@@ -14,6 +14,15 @@
 		7536AD581B8D8938003A9244 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD571B8D8938003A9244 /* Images.xcassets */; };
 		7536AD5B1B8D8938003A9244 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD591B8D8938003A9244 /* LaunchScreen.xib */; };
 		7536AD671B8D8938003A9244 /* UITreeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD661B8D8938003A9244 /* UITreeViewTests.m */; };
+		7536AD731B8D89CF003A9244 /* UITreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD721B8D89CF003A9244 /* UITreeView.m */; };
+		7536AD8C1B8D8FE5003A9244 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD871B8D8FE5003A9244 /* TreeNode.m */; };
+		7536AD8D1B8D8FE5003A9244 /* TreeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD891B8D8FE5003A9244 /* TreeViewCell.m */; };
+		7536AD8E1B8D8FE5003A9244 /* UICheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD8B1B8D8FE5003A9244 /* UICheckButton.m */; };
+		7536AD911B8D9252003A9244 /* category.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD8F1B8D9252003A9244 /* category.plist */; };
+		7536AD971B8D951F003A9244 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD931B8D951F003A9244 /* close.png */; };
+		7536AD981B8D951F003A9244 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD941B8D951F003A9244 /* open.png */; };
+		7536AD991B8D951F003A9244 /* check_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD951B8D951F003A9244 /* check_box.png */; };
+		7536AD9A1B8D951F003A9244 /* uncheck_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD961B8D951F003A9244 /* uncheck_box.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,19 @@
 		7536AD601B8D8938003A9244 /* UITreeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITreeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7536AD651B8D8938003A9244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7536AD661B8D8938003A9244 /* UITreeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITreeViewTests.m; sourceTree = "<group>"; };
+		7536AD711B8D89CF003A9244 /* UITreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITreeView.h; path = TreeView/UITreeView.h; sourceTree = "<group>"; };
+		7536AD721B8D89CF003A9244 /* UITreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITreeView.m; path = TreeView/UITreeView.m; sourceTree = "<group>"; };
+		7536AD861B8D8FE5003A9244 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeNode.h; path = TreeView/TreeNode.h; sourceTree = "<group>"; };
+		7536AD871B8D8FE5003A9244 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeNode.m; path = TreeView/TreeNode.m; sourceTree = "<group>"; };
+		7536AD881B8D8FE5003A9244 /* TreeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeViewCell.h; path = TreeView/TreeViewCell.h; sourceTree = "<group>"; };
+		7536AD891B8D8FE5003A9244 /* TreeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeViewCell.m; path = TreeView/TreeViewCell.m; sourceTree = "<group>"; };
+		7536AD8A1B8D8FE5003A9244 /* UICheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICheckButton.h; path = TreeView/UICheckButton.h; sourceTree = "<group>"; };
+		7536AD8B1B8D8FE5003A9244 /* UICheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICheckButton.m; path = TreeView/UICheckButton.m; sourceTree = "<group>"; };
+		7536AD8F1B8D9252003A9244 /* category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = category.plist; path = TreeView/category.plist; sourceTree = "<group>"; };
+		7536AD931B8D951F003A9244 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		7536AD941B8D951F003A9244 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		7536AD951B8D951F003A9244 /* check_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_box.png; sourceTree = "<group>"; };
+		7536AD961B8D951F003A9244 /* uncheck_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck_box.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,7 @@
 		7536AD491B8D8938003A9244 /* UITreeView */ = {
 			isa = PBXGroup;
 			children = (
+				7536AD701B8D8944003A9244 /* TreeView */,
 				7536AD4E1B8D8938003A9244 /* AppDelegate.h */,
 				7536AD4F1B8D8938003A9244 /* AppDelegate.m */,
 				7536AD511B8D8938003A9244 /* ViewController.h */,
@@ -117,6 +140,35 @@
 				7536AD651B8D8938003A9244 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7536AD701B8D8944003A9244 /* TreeView */ = {
+			isa = PBXGroup;
+			children = (
+				7536AD7D1B8D8EC0003A9244 /* Images */,
+				7536AD8F1B8D9252003A9244 /* category.plist */,
+				7536AD861B8D8FE5003A9244 /* TreeNode.h */,
+				7536AD871B8D8FE5003A9244 /* TreeNode.m */,
+				7536AD881B8D8FE5003A9244 /* TreeViewCell.h */,
+				7536AD891B8D8FE5003A9244 /* TreeViewCell.m */,
+				7536AD8A1B8D8FE5003A9244 /* UICheckButton.h */,
+				7536AD8B1B8D8FE5003A9244 /* UICheckButton.m */,
+				7536AD711B8D89CF003A9244 /* UITreeView.h */,
+				7536AD721B8D89CF003A9244 /* UITreeView.m */,
+			);
+			name = TreeView;
+			sourceTree = "<group>";
+		};
+		7536AD7D1B8D8EC0003A9244 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7536AD931B8D951F003A9244 /* close.png */,
+				7536AD941B8D951F003A9244 /* open.png */,
+				7536AD951B8D951F003A9244 /* check_box.png */,
+				7536AD961B8D951F003A9244 /* uncheck_box.png */,
+			);
+			name = Images;
+			path = TreeView/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +251,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7536AD991B8D951F003A9244 /* check_box.png in Resources */,
 				7536AD561B8D8938003A9244 /* Main.storyboard in Resources */,
 				7536AD5B1B8D8938003A9244 /* LaunchScreen.xib in Resources */,
+				7536AD9A1B8D951F003A9244 /* uncheck_box.png in Resources */,
+				7536AD911B8D9252003A9244 /* category.plist in Resources */,
+				7536AD971B8D951F003A9244 /* close.png in Resources */,
 				7536AD581B8D8938003A9244 /* Images.xcassets in Resources */,
+				7536AD981B8D951F003A9244 /* open.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7536AD8C1B8D8FE5003A9244 /* TreeNode.m in Sources */,
+				7536AD8E1B8D8FE5003A9244 /* UICheckButton.m in Sources */,
+				7536AD731B8D89CF003A9244 /* UITreeView.m in Sources */,
+				7536AD8D1B8D8FE5003A9244 /* TreeViewCell.m in Sources */,
 				7536AD531B8D8938003A9244 /* ViewController.m in Sources */,
 				7536AD501B8D8938003A9244 /* AppDelegate.m in Sources */,
 				7536AD4D1B8D8938003A9244 /* main.m in Sources */,
@@ -348,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UITreeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UITreeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
