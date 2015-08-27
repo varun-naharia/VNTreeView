@@ -44,8 +44,7 @@
     NSMutableDictionary *childdict = [[NSMutableDictionary alloc] init];
     
     TreeNode *node1 ;
-    //    if (model.discountCouponCode == (id)[NSNull null] || model.discountCouponCode.length == 0 ){
-    //    NSLog(@"%@",parentdict);
+//    if(![parentdict isKindOfClass:[NSNull class]]) ***** if below dosen't work ****
     if(![parentdict isEqual:@""])
     {
         if([parentdict valueForKey:@"name"] )
