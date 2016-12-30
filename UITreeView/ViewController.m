@@ -29,11 +29,11 @@
     UIFont *font =[UIFont fontWithName:@"Helvetica" size:10];
     [tree setTreeViewFont:font];
     
-    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 500, 50, 20)];
-    btn.backgroundColor=[UIColor redColor];
-    btn.titleLabel.text=@"Get Selected";
-    [btn addTarget:self action:@selector(btnTap) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+//    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 500, 50, 20)];
+//    btn.backgroundColor=[UIColor redColor];
+//    btn.titleLabel.text=@"Get Selected";
+//    [btn addTarget:self action:@selector(btnTap) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:btn];
     
 }
 
