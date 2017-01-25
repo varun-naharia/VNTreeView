@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "UICheckButton.h"
+#import "CheckButton.h"
 
 @protocol CellSelectedDelegate
 
@@ -26,7 +26,7 @@
 @property (nonatomic, retain) UIImageView *arrowImage;
 @property (nonatomic) int level;
 @property (nonatomic) BOOL expanded;
-@property(strong)UICheckButton *btnCheckBox;
+@property(strong)CheckButton *btnCheckBox;
 @property(nonatomic)BOOL isSelected;
 @property (nonatomic, assign) id <CellSelectedDelegate> delegate;
 

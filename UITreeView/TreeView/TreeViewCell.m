@@ -51,7 +51,7 @@
 		self.valueLabel.textAlignment = NSTextAlignmentLeft;
 		[content addSubview:self.valueLabel];
         
-        btnCheckBox = [[UICheckButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20) withBackgroundColor:[UIColor redColor]];
+        btnCheckBox = [[CheckButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20) withBackgroundColor:[UIColor redColor]];
         [content addSubview:btnCheckBox];
         btnCheckBox.delegate=self;
         [btnCheckBox setDefaultValue:self.isSelected];

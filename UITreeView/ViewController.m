@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  UITreeView
+//  TreeView
 //
 //  Created by Varun Naharia on 26/08/15.
 //
@@ -23,7 +23,7 @@
     cat =[[NSMutableDictionary alloc] init];
     cat =[dict valueForKey:@"categoriesList"];
     
-    tree = [[UITreeView alloc] initWithFrame:CGRectMake(0, 30, 200, 400) andData:cat];
+    tree = [[TreeView alloc] initWithFrame:CGRectMake(0, 30, 200, 400) andData:cat];
     
     [self.view addSubview:tree];
     UIFont *font =[UIFont fontWithName:@"Helvetica" size:10];

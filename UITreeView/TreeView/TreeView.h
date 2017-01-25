@@ -1,6 +1,6 @@
 //
-//  UITreeView.h
-//  UITreeView
+//  TreeView.h
+//  TreeView
 //
 //  Created by Varun Naharia on 26/08/15.
 //  
@@ -11,7 +11,7 @@
 #import "TreeViewCell.h"
 
 
-@interface UITreeView : UITableView<UITableViewDataSource,UITableViewDelegate,CellSelectedDelegate>{
+@interface TreeView : UITableView<UITableViewDataSource,UITableViewDelegate,CellSelectedDelegate>{
     TreeNode *treeNode;
 }
 

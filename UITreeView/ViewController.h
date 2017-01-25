@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UITreeView.h"
+#import "TreeView.h"
 
 @interface ViewController : UIViewController
 {
-    UITreeView *tree;
+    TreeView *tree;
 }
 
 @property(nonatomic,retain)NSMutableDictionary *dict;

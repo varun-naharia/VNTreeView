@@ -13,11 +13,11 @@
 		7536AD561B8D8938003A9244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD541B8D8938003A9244 /* Main.storyboard */; };
 		7536AD581B8D8938003A9244 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD571B8D8938003A9244 /* Images.xcassets */; };
 		7536AD5B1B8D8938003A9244 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD591B8D8938003A9244 /* LaunchScreen.xib */; };
-		7536AD671B8D8938003A9244 /* UITreeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD661B8D8938003A9244 /* UITreeViewTests.m */; };
-		7536AD731B8D89CF003A9244 /* UITreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD721B8D89CF003A9244 /* UITreeView.m */; };
+		7536AD671B8D8938003A9244 /* TreeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD661B8D8938003A9244 /* TreeViewTests.m */; };
+		7536AD731B8D89CF003A9244 /* TreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD721B8D89CF003A9244 /* TreeView.m */; };
 		7536AD8C1B8D8FE5003A9244 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD871B8D8FE5003A9244 /* TreeNode.m */; };
 		7536AD8D1B8D8FE5003A9244 /* TreeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD891B8D8FE5003A9244 /* TreeViewCell.m */; };
-		7536AD8E1B8D8FE5003A9244 /* UICheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD8B1B8D8FE5003A9244 /* UICheckButton.m */; };
+		7536AD8E1B8D8FE5003A9244 /* CheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536AD8B1B8D8FE5003A9244 /* CheckButton.m */; };
 		7536AD911B8D9252003A9244 /* category.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD8F1B8D9252003A9244 /* category.plist */; };
 		7536AD971B8D951F003A9244 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD931B8D951F003A9244 /* close.png */; };
 		7536AD981B8D951F003A9244 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = 7536AD941B8D951F003A9244 /* open.png */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7536AD471B8D8938003A9244 /* UITreeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITreeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7536AD471B8D8938003A9244 /* TreeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7536AD4B1B8D8938003A9244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7536AD4C1B8D8938003A9244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7536AD4E1B8D8938003A9244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,17 +46,17 @@
 		7536AD551B8D8938003A9244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7536AD571B8D8938003A9244 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7536AD5A1B8D8938003A9244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7536AD601B8D8938003A9244 /* UITreeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITreeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7536AD601B8D8938003A9244 /* TreeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7536AD651B8D8938003A9244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7536AD661B8D8938003A9244 /* UITreeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITreeViewTests.m; sourceTree = "<group>"; };
-		7536AD711B8D89CF003A9244 /* UITreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITreeView.h; path = TreeView/UITreeView.h; sourceTree = "<group>"; };
-		7536AD721B8D89CF003A9244 /* UITreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITreeView.m; path = TreeView/UITreeView.m; sourceTree = "<group>"; };
+		7536AD661B8D8938003A9244 /* TreeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeViewTests.m; sourceTree = "<group>"; };
+		7536AD711B8D89CF003A9244 /* TreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeView.h; path = TreeView/TreeView.h; sourceTree = "<group>"; };
+		7536AD721B8D89CF003A9244 /* TreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeView.m; path = TreeView/TreeView.m; sourceTree = "<group>"; };
 		7536AD861B8D8FE5003A9244 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeNode.h; path = TreeView/TreeNode.h; sourceTree = "<group>"; };
 		7536AD871B8D8FE5003A9244 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeNode.m; path = TreeView/TreeNode.m; sourceTree = "<group>"; };
 		7536AD881B8D8FE5003A9244 /* TreeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeViewCell.h; path = TreeView/TreeViewCell.h; sourceTree = "<group>"; };
 		7536AD891B8D8FE5003A9244 /* TreeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeViewCell.m; path = TreeView/TreeViewCell.m; sourceTree = "<group>"; };
-		7536AD8A1B8D8FE5003A9244 /* UICheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICheckButton.h; path = TreeView/UICheckButton.h; sourceTree = "<group>"; };
-		7536AD8B1B8D8FE5003A9244 /* UICheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICheckButton.m; path = TreeView/UICheckButton.m; sourceTree = "<group>"; };
+		7536AD8A1B8D8FE5003A9244 /* CheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckButton.h; path = TreeView/CheckButton.h; sourceTree = "<group>"; };
+		7536AD8B1B8D8FE5003A9244 /* CheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckButton.m; path = TreeView/CheckButton.m; sourceTree = "<group>"; };
 		7536AD8F1B8D9252003A9244 /* category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = category.plist; path = TreeView/category.plist; sourceTree = "<group>"; };
 		7536AD931B8D951F003A9244 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		7536AD941B8D951F003A9244 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				7536AD491B8D8938003A9244 /* UITreeView */,
-				7536AD631B8D8938003A9244 /* UITreeViewTests */,
+				7536AD631B8D8938003A9244 /* TreeViewTests */,
 				7536AD481B8D8938003A9244 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +94,8 @@
 		7536AD481B8D8938003A9244 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7536AD471B8D8938003A9244 /* UITreeView.app */,
-				7536AD601B8D8938003A9244 /* UITreeViewTests.xctest */,
+				7536AD471B8D8938003A9244 /* TreeView.app */,
+				7536AD601B8D8938003A9244 /* TreeViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,12 +125,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7536AD631B8D8938003A9244 /* UITreeViewTests */ = {
+		7536AD631B8D8938003A9244 /* TreeViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				7536AD661B8D8938003A9244 /* UITreeViewTests.m */,
+				7536AD661B8D8938003A9244 /* TreeViewTests.m */,
 				7536AD641B8D8938003A9244 /* Supporting Files */,
 			);
+			name = TreeViewTests;
 			path = UITreeViewTests;
 			sourceTree = "<group>";
 		};
@@ -151,10 +152,10 @@
 				7536AD871B8D8FE5003A9244 /* TreeNode.m */,
 				7536AD881B8D8FE5003A9244 /* TreeViewCell.h */,
 				7536AD891B8D8FE5003A9244 /* TreeViewCell.m */,
-				7536AD8A1B8D8FE5003A9244 /* UICheckButton.h */,
-				7536AD8B1B8D8FE5003A9244 /* UICheckButton.m */,
-				7536AD711B8D89CF003A9244 /* UITreeView.h */,
-				7536AD721B8D89CF003A9244 /* UITreeView.m */,
+				7536AD8A1B8D8FE5003A9244 /* CheckButton.h */,
+				7536AD8B1B8D8FE5003A9244 /* CheckButton.m */,
+				7536AD711B8D89CF003A9244 /* TreeView.h */,
+				7536AD721B8D89CF003A9244 /* TreeView.m */,
 			);
 			name = TreeView;
 			sourceTree = "<group>";
@@ -174,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7536AD461B8D8938003A9244 /* UITreeView */ = {
+		7536AD461B8D8938003A9244 /* TreeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7536AD6A1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "UITreeView" */;
+			buildConfigurationList = 7536AD6A1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "TreeView" */;
 			buildPhases = (
 				7536AD431B8D8938003A9244 /* Sources */,
 				7536AD441B8D8938003A9244 /* Frameworks */,
@@ -186,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = UITreeView;
+			name = TreeView;
 			productName = UITreeView;
-			productReference = 7536AD471B8D8938003A9244 /* UITreeView.app */;
+			productReference = 7536AD471B8D8938003A9244 /* TreeView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7536AD5F1B8D8938003A9244 /* UITreeViewTests */ = {
+		7536AD5F1B8D8938003A9244 /* TreeViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7536AD6D1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "UITreeViewTests" */;
+			buildConfigurationList = 7536AD6D1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "TreeViewTests" */;
 			buildPhases = (
 				7536AD5C1B8D8938003A9244 /* Sources */,
 				7536AD5D1B8D8938003A9244 /* Frameworks */,
@@ -204,9 +205,9 @@
 			dependencies = (
 				7536AD621B8D8938003A9244 /* PBXTargetDependency */,
 			);
-			name = UITreeViewTests;
+			name = TreeViewTests;
 			productName = UITreeViewTests;
-			productReference = 7536AD601B8D8938003A9244 /* UITreeViewTests.xctest */;
+			productReference = 7536AD601B8D8938003A9244 /* TreeViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +216,7 @@
 		7536AD3F1B8D8938003A9244 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = EmizenTech;
 				TargetAttributes = {
 					7536AD461B8D8938003A9244 = {
@@ -227,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7536AD421B8D8938003A9244 /* Build configuration list for PBXProject "UITreeView" */;
+			buildConfigurationList = 7536AD421B8D8938003A9244 /* Build configuration list for PBXProject "TreeView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -240,8 +241,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7536AD461B8D8938003A9244 /* UITreeView */,
-				7536AD5F1B8D8938003A9244 /* UITreeViewTests */,
+				7536AD461B8D8938003A9244 /* TreeView */,
+				7536AD5F1B8D8938003A9244 /* TreeViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,8 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7536AD8C1B8D8FE5003A9244 /* TreeNode.m in Sources */,
-				7536AD8E1B8D8FE5003A9244 /* UICheckButton.m in Sources */,
-				7536AD731B8D89CF003A9244 /* UITreeView.m in Sources */,
+				7536AD8E1B8D8FE5003A9244 /* CheckButton.m in Sources */,
+				7536AD731B8D89CF003A9244 /* TreeView.m in Sources */,
 				7536AD8D1B8D8FE5003A9244 /* TreeViewCell.m in Sources */,
 				7536AD531B8D8938003A9244 /* ViewController.m in Sources */,
 				7536AD501B8D8938003A9244 /* AppDelegate.m in Sources */,
@@ -290,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7536AD671B8D8938003A9244 /* UITreeViewTests.m in Sources */,
+				7536AD671B8D8938003A9244 /* TreeViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +300,7 @@
 /* Begin PBXTargetDependency section */
 		7536AD621B8D8938003A9244 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7536AD461B8D8938003A9244 /* UITreeView */;
+			target = 7536AD461B8D8938003A9244 /* TreeView */;
 			targetProxy = 7536AD611B8D8938003A9244 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -337,14 +338,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -380,8 +384,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -411,6 +417,7 @@
 				INFOPLIST_FILE = UITreeView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techwizard.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -422,6 +429,7 @@
 				INFOPLIST_FILE = UITreeView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techwizard.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -440,8 +448,9 @@
 				);
 				INFOPLIST_FILE = UITreeViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techwizard.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITreeView.app/UITreeView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeView.app/TreeView";
 			};
 			name = Debug;
 		};
@@ -455,15 +464,16 @@
 				);
 				INFOPLIST_FILE = UITreeViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techwizard.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITreeView.app/UITreeView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeView.app/TreeView";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7536AD421B8D8938003A9244 /* Build configuration list for PBXProject "UITreeView" */ = {
+		7536AD421B8D8938003A9244 /* Build configuration list for PBXProject "TreeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7536AD681B8D8938003A9244 /* Debug */,
@@ -472,21 +482,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7536AD6A1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "UITreeView" */ = {
+		7536AD6A1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "TreeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7536AD6B1B8D8938003A9244 /* Debug */,
 				7536AD6C1B8D8938003A9244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7536AD6D1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "UITreeViewTests" */ = {
+		7536AD6D1B8D8938003A9244 /* Build configuration list for PBXNativeTarget "TreeViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7536AD6E1B8D8938003A9244 /* Debug */,
 				7536AD6F1B8D8938003A9244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

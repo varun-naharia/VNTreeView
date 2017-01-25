@@ -1,14 +1,14 @@
 //
-//  UICheckButton.m
+//  CheckButton.m
 //  MyTreeViewPrototype
 //
 //  Created by Varun Naharia on 26/08/15.
 //
 //
 
-#import "UICheckButton.h"
+#import "CheckButton.h"
 
-@implementation UICheckButton
+@implementation CheckButton
 
 @synthesize category_id,product_count,parent_id,name,isSelected,checkImg,delegate;
 /*
@@ -45,7 +45,7 @@
         
     }
 
-    -(void)clickme:(UICheckButton *)sender
+    -(void)clickme:(CheckButton *)sender
     {
 //        NSLog(@"%@",sender.superview);
         if (sender.isSelected) {

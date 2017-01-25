@@ -1,6 +1,6 @@
 //
-//  UITreeViewTests.m
-//  UITreeViewTests
+//  TreeViewTests.m
+//  TreeViewTests
 //
 //  Created by Varun Naharia on 26/08/15.
 // 
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface UITreeViewTests : XCTestCase
+@interface TreeViewTests : XCTestCase
 
 @end
 
-@implementation UITreeViewTests
+@implementation TreeViewTests
 
 - (void)setUp {
     [super setUp];

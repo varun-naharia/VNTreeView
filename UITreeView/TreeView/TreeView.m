@@ -1,15 +1,15 @@
 //
-//  UITreeView.m
-//  UITreeView
+//  TreeView.m
+//  TreeView
 //
 //  Created by Varun Naharia on 26/08/15.
 //  
 //
 
-#import "UITreeView.h"
+#import "TreeView.h"
 
 
-@implementation UITreeView
+@implementation TreeView
 
 @synthesize cat,treeViewFont,selectedArray;
 

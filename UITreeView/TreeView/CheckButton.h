@@ -1,5 +1,5 @@
 //
-//  UICheckButton.h
+//  CheckButton.h
 //  MyTreeViewPrototype
 //
 //  Created by Varun Naharia on 26/08/15.
@@ -14,7 +14,7 @@
 
 @end
 
-@interface UICheckButton : UIButton
+@interface CheckButton : UIButton
 
 @property int category_id;
 @property(strong)NSString *name;
