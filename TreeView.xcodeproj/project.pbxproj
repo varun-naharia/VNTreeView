@@ -37,27 +37,27 @@
 
 /* Begin PBXFileReference section */
 		7536AD471B8D8938003A9244 /* TreeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7536AD4B1B8D8938003A9244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7536AD4C1B8D8938003A9244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7536AD4E1B8D8938003A9244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7536AD4F1B8D8938003A9244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7536AD511B8D8938003A9244 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7536AD521B8D8938003A9244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7536AD4B1B8D8938003A9244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../VNTreeView/Info.plist; sourceTree = "<group>"; };
+		7536AD4C1B8D8938003A9244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../VNTreeView/main.m; sourceTree = "<group>"; };
+		7536AD4E1B8D8938003A9244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../VNTreeView/AppDelegate.h; sourceTree = "<group>"; };
+		7536AD4F1B8D8938003A9244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../VNTreeView/AppDelegate.m; sourceTree = "<group>"; };
+		7536AD511B8D8938003A9244 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../VNTreeView/ViewController.h; sourceTree = "<group>"; };
+		7536AD521B8D8938003A9244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../VNTreeView/ViewController.m; sourceTree = "<group>"; };
 		7536AD551B8D8938003A9244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7536AD571B8D8938003A9244 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7536AD571B8D8938003A9244 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../VNTreeView/Images.xcassets; sourceTree = "<group>"; };
 		7536AD5A1B8D8938003A9244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7536AD601B8D8938003A9244 /* TreeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7536AD651B8D8938003A9244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7536AD661B8D8938003A9244 /* TreeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeViewTests.m; sourceTree = "<group>"; };
-		7536AD711B8D89CF003A9244 /* TreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeView.h; path = TreeView/TreeView.h; sourceTree = "<group>"; };
-		7536AD721B8D89CF003A9244 /* TreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeView.m; path = TreeView/TreeView.m; sourceTree = "<group>"; };
-		7536AD861B8D8FE5003A9244 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeNode.h; path = TreeView/TreeNode.h; sourceTree = "<group>"; };
-		7536AD871B8D8FE5003A9244 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeNode.m; path = TreeView/TreeNode.m; sourceTree = "<group>"; };
-		7536AD881B8D8FE5003A9244 /* TreeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeViewCell.h; path = TreeView/TreeViewCell.h; sourceTree = "<group>"; };
-		7536AD891B8D8FE5003A9244 /* TreeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeViewCell.m; path = TreeView/TreeViewCell.m; sourceTree = "<group>"; };
-		7536AD8A1B8D8FE5003A9244 /* CheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckButton.h; path = TreeView/CheckButton.h; sourceTree = "<group>"; };
-		7536AD8B1B8D8FE5003A9244 /* CheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckButton.m; path = TreeView/CheckButton.m; sourceTree = "<group>"; };
-		7536AD8F1B8D9252003A9244 /* category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = category.plist; path = TreeView/category.plist; sourceTree = "<group>"; };
+		7536AD711B8D89CF003A9244 /* TreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeView.h; sourceTree = "<group>"; };
+		7536AD721B8D89CF003A9244 /* TreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeView.m; sourceTree = "<group>"; };
+		7536AD861B8D8FE5003A9244 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		7536AD871B8D8FE5003A9244 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		7536AD881B8D8FE5003A9244 /* TreeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewCell.h; sourceTree = "<group>"; };
+		7536AD891B8D8FE5003A9244 /* TreeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewCell.m; sourceTree = "<group>"; };
+		7536AD8A1B8D8FE5003A9244 /* CheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckButton.h; sourceTree = "<group>"; };
+		7536AD8B1B8D8FE5003A9244 /* CheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckButton.m; sourceTree = "<group>"; };
+		7536AD8F1B8D9252003A9244 /* category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = category.plist; sourceTree = "<group>"; };
 		7536AD931B8D951F003A9244 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		7536AD941B8D951F003A9244 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
 		7536AD951B8D951F003A9244 /* check_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_box.png; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		7536AD3E1B8D8938003A9244 = {
 			isa = PBXGroup;
 			children = (
-				7536AD491B8D8938003A9244 /* UITreeView */,
+				7536AD491B8D8938003A9244 /* VNTreeView */,
 				7536AD631B8D8938003A9244 /* TreeViewTests */,
 				7536AD481B8D8938003A9244 /* Products */,
 			);
@@ -100,7 +100,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7536AD491B8D8938003A9244 /* UITreeView */ = {
+		7536AD491B8D8938003A9244 /* VNTreeView */ = {
 			isa = PBXGroup;
 			children = (
 				7536AD701B8D8944003A9244 /* TreeView */,
@@ -113,7 +113,7 @@
 				7536AD591B8D8938003A9244 /* LaunchScreen.xib */,
 				7536AD4A1B8D8938003A9244 /* Supporting Files */,
 			);
-			path = UITreeView;
+			path = VNTreeView;
 			sourceTree = "<group>";
 		};
 		7536AD4A1B8D8938003A9244 /* Supporting Files */ = {
@@ -132,7 +132,7 @@
 				7536AD641B8D8938003A9244 /* Supporting Files */,
 			);
 			name = TreeViewTests;
-			path = UITreeViewTests;
+			path = VNTreeViewTests;
 			sourceTree = "<group>";
 		};
 		7536AD641B8D8938003A9244 /* Supporting Files */ = {
@@ -158,6 +158,7 @@
 				7536AD721B8D89CF003A9244 /* TreeView.m */,
 			);
 			name = TreeView;
+			path = ../VNTreeView/TreeView;
 			sourceTree = "<group>";
 		};
 		7536AD7D1B8D8EC0003A9244 /* Images */ = {
@@ -168,8 +169,7 @@
 				7536AD951B8D951F003A9244 /* check_box.png */,
 				7536AD961B8D951F003A9244 /* uncheck_box.png */,
 			);
-			name = Images;
-			path = TreeView/Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +312,7 @@
 				7536AD551B8D8938003A9244 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../VNTreeView;
 			sourceTree = "<group>";
 		};
 		7536AD591B8D8938003A9244 /* LaunchScreen.xib */ = {
@@ -320,6 +321,7 @@
 				7536AD5A1B8D8938003A9244 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ../VNTreeView;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,7 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UITreeView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VNTreeView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "techwizard.$(PRODUCT_NAME:rfc1034identifier)";
@@ -426,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UITreeView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VNTreeView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "techwizard.$(PRODUCT_NAME:rfc1034identifier)";
